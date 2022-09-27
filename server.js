@@ -33,7 +33,7 @@ const PORT=process.env.PORT;
 
 //Home http://localhost:3000
 
-server.get("/",(req,res)=>{
+server.get('/',(req,res)=>{
     res.send("hello from home route");
 })
 
